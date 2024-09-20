@@ -1,0 +1,50 @@
+
+.hero{
+    background: rgb(241, 171, 91);
+    display:flex ;
+}
+
+.vertical{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: xx-large;
+    letter-spacing: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.menu{
+    padding-bottom: 25px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.but{
+    background-color: rgb(3, 85, 37);
+    border:5px solid rgb(3, 85, 37);
+    color:rgb(8, 8, 7);
+    text-decoration: none;
+    border-radius: 5px;
+    border-style:double;
+}
+
+.but:hover{
+    background-color: brown;
+    border: 10px solid brown;
+}
+
+.bod{
+    font-family: sans-serif;
+}
+
+.det{
+    display: flex;
+}
+
+.cvc{
+    text-decoration: none;
+    border: 2px;
+    border-radius: 2px;
+    background-color: forestgreen;
+}

@@ -182,24 +182,24 @@ body {
 
 /* Skill */
 
-.Skill{
+.Skill {
   margin: 130px auto;
   max-width: 1140px;
 }
 
-.Skill-Title{
+.Skill-Title {
   text-align: center;
 }
 
-.Skill-Desc{
-    text-align: center;
-    padding: 20px;
-    padding-left: 200px;
-    max-width: 781px;
-    padding-bottom: 50px;
+.Skill-Desc {
+  text-align: center;
+  padding: 20px;
+  padding-left: 200px;
+  max-width: 781px;
+  padding-bottom: 50px;
 }
 
-.Skill-Title{
+.Skill-Title {
   color: var(--Dark-01, #181818);
   text-align: center;
   font-family: "Open Sans";
@@ -209,90 +209,169 @@ body {
   line-height: normal;
 }
 
-.Skill-Items{
+.Skill-Items {
   display: flex;
-  padding-left: 80px;
-  margin-left: 100px;
+  padding-left: 50px;
+  margin-left: 50px;
+  padding-bottom: 110px;
 }
 
-.Skill-Item{
-    padding-right: 115px;
-    padding-left: 5px;
-    max-width: 180px;
-    font-weight: 10;
+.Skill-Item {
+  padding-right: 65px;
+  padding-left: 30px;
+  max-width: 150px;
+  font-weight: 10;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Summery */
 
 .Summery {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: white;
-    padding-top: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .Summery h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
 }
 
 .Resume {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.Education{
-    width: 48%;
-    padding-right: 30px;
-} 
+.Education {
+  width: 48%;
+  padding-right: 30px;
+}
 
 .Experience {
-    width: 48%;
+  width: 48%;
 }
 
 .Summery h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .Summery Item {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
 
 .Summery h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-    font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .Summery p {
-    font-size: 14px;
-    color: #666;
+  font-size: 14px;
+  color: #666;
 }
 
 .cv-button {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .btn {
-    background-color: #fd6e0a;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+  background-color: #fd6e0a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .btn:hover {
-    background-color: #e27c39;
+  background-color: #e27c39;
 }
 
+/* Contact */
 
+.Contact {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.Contact-Info,
+.Contact-Form {
+  width: 48%;
+  padding: 40px;
+  padding-top: 100px;
+}
 
+.Contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Contact p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.Social-Icons {
+  display: flex;
+  gap: 15px;
+}
+
+.Social-Icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+.Contact-Form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-Form input,
+.Contact-Form textarea {
+  height: 10px;
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.Contact-Form textarea {
+  padding-bottom: 10px;
+}
+
+.submit {
+  width: 80px;
+  text-align: center;
+  background-color: #fd6e0a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #e27c39;
+}

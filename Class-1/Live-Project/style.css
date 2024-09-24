@@ -1,209 +1,297 @@
 /* Intro */
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: white;
-    color: #333;
+  font-family: "Arial", sans-serif;
+  background-color: white;
+  color: #333;
 }
 
-.Side-Bar{
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    font-size: 40px;
-    letter-spacing: 30px;
-    text-align: center;
-    font-family: sans-serif;
-    opacity: 0.4;
-    display: flex;
-    margin-bottom: 100px;
+.Side-Bar {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 40px;
+  letter-spacing: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  opacity: 0.4;
+  display: flex;
+  margin-bottom: 100px;
 }
 
-.Hero-Nav{
-    display:flex;
-    background-color: white;
+.Hero-Nav {
+  display: flex;
+  background-color: white;
 }
 
-.Nav-Btn{
-    height: 2px;
-    width: 1px;
-    font-size: 1rem;
+.Nav-Btn {
+  height: 2px;
+  width: 1px;
+  font-size: 1rem;
 }
 
-.Nav-Btn ul{
-    margin-left:300px ;
-    
+.Nav-Btn ul {
+  margin-left: 300px;
 }
 
-
-.Nav-Bar{
-    display: flex;
-    padding: 20px 40px;
-    background-color: white;
-    text-decoration: none;
-    height: 2px;
-    width: 1px;
+.Nav-Bar {
+  display: flex;
+  padding: 20px 40px;
+  background-color: white;
+  text-decoration: none;
+  height: 2px;
+  width: 1px;
 }
 
-.Nav-Bar ul{
-    display: flex;
-    list-style: none;
-    padding: 20px 400px;
+.Nav-Bar ul {
+  display: flex;
+  list-style: none;
+  padding: 20px 400px;
 }
 
-.Nav-Bar ul li{
-    margin: 0 15px;
+.Nav-Bar ul li {
+  margin: 0 15px;
 }
 
 .Nav-Bar ul li a {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 .Hire-Btn {
-    color: white;
-    background-color: #FD6E0A;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
- 
-  .Hire-Btn:hover{
-    padding: 20px 40px;
-    background-color:#FD6E0A ;
-  }
- 
-.Content{
-    display: grid;
-    justify-content: space-between;
-    padding: 150px;
-    margin-left: -190px;
-    margin-top: -200px;
-}  
+  color: white;
+  background-color: #fd6e0a;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
 
-.Content h2{
-    font-size: 30px;
-    height: 0%;
-    margin-top: 200px;
-    font-weight: 50px;
+.Hire-Btn:hover {
+  padding: 20px 40px;
+  background-color: #fd6e0a;
+}
+
+.Content {
+  display: grid;
+  justify-content: space-between;
+  padding: 150px;
+  margin-left: -190px;
+  margin-top: -200px;
+}
+
+.Content h2 {
+  font-size: 30px;
+  height: 0%;
+  margin-top: 200px;
+  font-weight: 50px;
 }
 
 .Content h1 {
-    font-size: 68px;
-    margin-bottom: 10px;
-    height: 100px;
-    margin-top: -35px;
-    font-weight: 900px;
+  font-size: 68px;
+  margin-bottom: 10px;
+  height: 100px;
+  margin-top: -35px;
+  font-weight: 900px;
 }
 
 .Content p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    max-width: 600px;
-    margin-top: -20px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-top: -20px;
 }
 
-.CV-Button{
-    color: white;
-    background-color: #FD6E0A;
-    padding: 20px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
+.CV-Button {
+  color: white;
+  background-color: #fd6e0a;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-.CV-Button:hover{
-    padding: 20px 40px;
-    background-color:black ;
-  }
-
-.Contact-Button{
-    color: white;
-    background-color:#FD6E0A;
-    padding: 20px 50px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
+.CV-Button:hover {
+  padding: 20px 40px;
+  background-color: black;
 }
 
-.Contact-Button:hover{
-    padding: 20px 55px;
-    background-color:black;
-  }
-
-.Hero-Info{
-    display:inline-flex;
-    margin-top: 150px;
+.Contact-Button {
+  color: white;
+  background-color: #fd6e0a;
+  padding: 20px 50px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-.Logo{
-    margin-top: 30px;
-    font-size: 50px;
+.Contact-Button:hover {
+  padding: 20px 55px;
+  background-color: black;
 }
 
-#r{
-    color: #FD6E0A;
+.Hero-Info {
+  display: inline-flex;
+  margin-top: 150px;
 }
 
-.picture{
-    display: inline-flex;
+.Logo {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+#r {
+  color: #fd6e0a;
+}
+
+.picture {
+  display: inline-flex;
 }
 
 /* About  */
 
 .About {
-    background-color: #fff8f2;
-    padding: 150px;
-    text-align: center;
-    height: 288px;
-    width: 1002px;
-    margin: 110px;
+  background-color: #fff8f2;
+  padding: 150px;
+  text-align: center;
+  height: 288px;
+  width: 1002px;
+  margin: 110px;
 }
 
 .About h1 {
-    font-size: 38px;
-    margin-bottom: 20px;
+  font-size: 38px;
+  margin-bottom: 20px;
 }
 
 .About p {
-    font-size: 26px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    color: #666;
+  font-size: 26px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #666;
 }
 
 .info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Skill */
+
+.Skill{
+  margin: 130px auto;
+  max-width: 1140px;
+}
+
+.Skill-Title{
+  text-align: center;
+}
+
+.Skill-Desc{
+    text-align: center;
+    padding: 20px;
+    padding-left: 200px;
+    max-width: 781px;
+    padding-bottom: 50px;
+}
+
+.Skill-Title{
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Skill-Items{
+  display: flex;
+  padding-left: 80px;
+  margin-left: 100px;
+}
+
+.Skill-Item{
+    padding-right: 115px;
+    padding-left: 5px;
+    max-width: 180px;
+    font-weight: 10;
+}
+
+/* Summery */
+
+.Summery {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.Summery h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.Resume {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 10px 0;
-    font-size: 26px;
-    color: #333;
 }
 
+.Education{
+    width: 48%;
+    padding-right: 30px;
+} 
 
+.Experience {
+    width: 48%;
+}
 
+.Summery h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 
+.Summery Item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
 
+.Summery h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
 
+.Summery p {
+    font-size: 14px;
+    color: #666;
+}
 
+.cv-button {
+    text-align: center;
+    margin-top: 40px;
+}
 
+.btn {
+    background-color: #fd6e0a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn:hover {
+    background-color: #e27c39;
+}
 
 
 

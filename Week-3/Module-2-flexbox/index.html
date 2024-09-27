@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            font-family: sans-serif;
+            color: black;
+         }
+        .form{
+            display: flex;
+            flex-direction: column;
+            border: solid 2px;
+            border-color: gray;
+            height: 450px;
+            width: 20%;
+            margin: 150px;
+            margin-left: 550px;
+            color: white;
+            background-color: rgb(233, 229, 224);
+        }
+        .form h2{
+            text-align: center;
+            font-weight: 800;
+        }
+        .icon{
+            display: flex;
+            text-align: center;
+            padding: 25px;
+            padding-left: 55px;
+            margin-top: -20px;
+            gap: 50px;
+        }
+        .pic{
+            border: solid gray 1px;
+            border-radius: 5px;
+        }
+        .pic img{
+            height:30px;
+            width: 30px;
+            
+        }
+        .form-content{
+            padding: 40px;
+            padding-left: 50px;
+        }
+        .form-content .email-address{
+            font-size: 15px;
+        }
+        .form-content #email-address{
+            margin: 5px 0px 25px;
+            border-radius: 5px;
+            width: 200px;
+            height: 30px;
+        }
+        .form-content #password{
+            margin: 5px 0px 25px;
+            border-radius: 5px;
+            width: 200px;
+            height: 30px;
+        }
+        button{
+            height: 35px;
+            width: 210px;
+            background-color: lightgreen;
+            border-radius: 5px;
+            cursor:grab;
+        }
+        button
+    </style>
+  </head>
+  <body>
+    <div class="form">
+        <h2>Login With</h2>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <a href="#" class="fa fa-twitter"></a>
+            <a class="pic" href="#"><img src="insta.png"/></a>
+        </div>    
+        <div class="form-content">
+            <form action="#">
+                <label for="email-address">Email address</label><br>
+                <input type="text" id="email-address" placeholder="yourname@gmail.com"></input><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="password" placeholder="yourpassword">
+                <a href="#"><button>Login</button></a>
+            </button>
+        </div>
+    </div>
+  </body>
+</html>

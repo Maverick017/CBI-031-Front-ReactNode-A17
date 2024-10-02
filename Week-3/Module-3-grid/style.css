@@ -11,13 +11,14 @@ body{
 
 .week, .date{
     border: solid gray 2px;
-    width: 90px;
-    height: 40px;
+    width:98%;
+    height: 60px;
     border-radius: 3%;
+    text-align: center;
 }
 
 .date{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 800;
     background-color: rgb(245, 242, 239);
 }
@@ -32,12 +33,12 @@ body{
 }
 
 .year{
-    display: flex;
     text-align: center;
-    color: rgb(7, 107, 7);
+    color:rgb(12, 128, 83);
     margin-top: -20px;
 }
 
-.jan{
+.year h1{
     font-size: 50px;
+    font-weight: 800;
 }
